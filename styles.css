@@ -567,7 +567,19 @@ img {
     padding: 60px 0 100px;
   }
 
-  /* .header .container {
+  .product_card {
+    width: 100%;
+
+    padding-left: 50%;
+  }
+
+  .product_card:nth-child(even) {
+    padding-right: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header .container {
     flex-direction: column;
     gap: 10px;
   }
@@ -575,14 +587,32 @@ img {
   .header_list {
     flex-direction: column;
     text-align: center;
-    gap: 5px;
-  }
-
-  .header .btn {
-    display: none;
+    gap: 10px;
   }
 
   .welcome {
     margin-top: -240px;
-  } */
+    padding-top: 280px;
+    padding-bottom: 80px;
+  }
+
+  .welcome_subtitle {
+  }
+
+  .welcome_title {
+    font-size: 30px;
+  }
+
+  .welcome_desk {
+    font-size: 12px;
+  }
+
+  .food-list .order {
+    padding: 50px 0;
+  }
+
+  .order_title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
 }
